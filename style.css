@@ -1,0 +1,59 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.hero-section {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/food.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #2c5e3f !important;
+}
+
+h2 {
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #f0ad4e;
+}
+
+#nutrition .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#nutrition .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#recipes .card {
+    transition: transform 0.3s ease;
+}
+
+#recipes .card:hover {
+    transform: scale(1.05);
+}
+
+#poll button {
+    transition: transform 0.2s ease;
+}
+
+#poll button:hover {
+    transform: scale(1.1);
+}
