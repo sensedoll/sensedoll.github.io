@@ -4,7 +4,7 @@ body {
 
 .hero-section {
     height: 60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/food.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5870328/pexels-photo-5870328.jpeg);
     background-size: cover;
     background-position: center;
     color: white;
