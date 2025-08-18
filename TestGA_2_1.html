@@ -249,6 +249,17 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 </script>
+    <script>
+      /**
+      *   The following event is sent when the page loads. You could
+      *   wrap the event in a JavaScript function so the event is
+      *   sent when the user performs some action.
+      */
+      gtag('event', 'screen_view', {
+        'app_name': '三色豆創意料理',
+        'screen_name': 'Relaxed 超舒爽'
+      });
+    </script> 
 
 </body>
 </html>
